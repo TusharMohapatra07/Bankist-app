@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url(./account.css);
+@import url(./login.css);
+
+:root{
+    --primary-color : rgb(241, 236, 236);
+    --secondary-color: rgb(248, 246, 246);
+}
+
+::-webkit-scrollbar{
+    width: 0.85rem;
+}
+  
+::-webkit-scrollbar-track{
+    background-color: rgb(219, 218, 218);  
+    border-radius: 1rem;
+}
+  
+::-webkit-scrollbar-thumb{
+    background-color: rgb(141, 140, 140);
+    border-radius: 1rem;
+}
+
+
+html{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+}
+
+*{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--primary-color);
+    height: 100%;
+    width: 100%;
+}
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 720px){
+
+    .account__grid-container {
+        grid-template-columns: 85%;
+        height: max-content;
+        justify-content: center;
+    }
+    
+     .account__scroll-container {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .account__transfer-money {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        min-width: 90%;
+        justify-self: center;
+    }
+
+    .account__request-loan{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        min-width: 90%;
+        justify-self: center;
+    }
+    
+    .account__close-account{
+        grid-column: 1/2;
+        grid-row: 4/5;
+        min-width: 90%;
+        justify-self: center;
+    }
+
+}
+
+
+@media screen and (max-width: 550px){
+
+    .login-page__form {
+        width: 100%;
+    }
+
+    .login-page__button{
+        transform: translate(-14%, -140%);
+    }
+
+    .account__welcome{
+        font-size: 1.3rem;
+        margin: 1rem;
+    }
+
+    .account__logo{
+        width: 12rem;
+    }
+
+    .account__button{
+        margin: 1rem;
+    }
+
+    .account__text-balance{
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    .account__text-date{
+        font-size: 1.2rem;
+    }
+
+    .account__balance{
+        font-size: 3rem;
+    }
+
+    .account__grid-container {
+        grid-template-columns: 90%;
+        margin: 2rem 0rem;
+    }
+
+    .account__movement-deposit {
+        font-size: 1rem;
+    }
+
+    .account__movement-date {
+        font-size: 1rem;
+    }
+
+    .account__movement-amount {
+        font-size: 1.8rem;
+    }
+
+    .account__in, .account__out, .account__interest {
+        font-size: 1.2rem;
+    }
+
+    .account__in-amount, .account__out-amount, .account__interest-amount {
+        font-size: 1.5rem;
+    }
+
+    .account__sort {
+        width: 3rem;
+    }
+
+    .account__sort-text{
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width: 430px){
+
+    .login-page__button{
+        transform: translate(-16%, -140%);
+    }
+
+    .login-page__button p{
+        font-size: 1.2rem;
+    }
+
+    .login-page__button img{
+        height: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 360px){
+
+    .login-page__button{
+        transform: translate(-19%, -140%);
+    }
+
+    .login-page__button p{
+        display: none;
+    }
+
+    .login-page__button img{
+        height: 1.6rem;
+    }
+
+}
+
+
+@media screen and (max-height: 500px){
+
+    .login-page__container{
+        height: 70%;
+    }
+
+    .login-page__icon{
+        width: 4rem
+    }
+}

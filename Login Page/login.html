@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bankist</title>
+    <link rel="icon" href="../assets/icon.png" type="image/png">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <div class="login-page">
+        <div class="login-page__container">
+            <div class="login-page__icon">
+                <a href="#" class="login-page__image-ink">
+                <img src="/assets/icon-dark.png" alt="logo">
+                </a>
+            </div>
+            <p class="login-page__text">Login to get started</p>
+            <div class="login-page__form">
+                <input type="text" placeholder="User" class="login-page__username" name="user" required="true">
+                <input type="password" placeholder="PIN" class="login-page__password" name="password" required="true">
+                <button class="login-page__button">
+                    <p>LOGIN</p>
+                    <img src="/assets/arrow-right.svg" alt="arrow">
+                </button>
+            </div>
+            <p class="login-page__back-text">Back to<a href="#" class="login-page__link">Main Page</a></p>
+        </div>
+    </div>
+
+    <section class="account">
+        <nav class="account__nav">
+            <p class="account__welcome">Welcome <span class="account__name">User</span>!</p>
+            <img src="../assets/logo.png" alt="logo" class="account__logo" width="350" height="106">
+            <button class="account__button">
+                <p>LOGOUT</p>
+            </button>
+        </nav>
+        <div class="account__details"> 
+            <div class="account__text">
+            <p class="account__text-balance">Current balance</p>
+            <p class="account__text-date">As of <span class="account__date">07/02/2024</span></p>
+            </div>
+            <p class="account__balance"><span class="account__balance-currency">₹</span>0000</p>
+        </div>
+        <div class="account__grid-container">
+            <div class="account__scroll-container">
+                <ul class="account__movements">
+                </ul>
+            </div>
+            
+            <div class="account__transfer-money account__generic-grid">
+                <p>Transfer money</p><br>
+                <input class="account__input account__transfer-to" name="Transfer to">
+                <p>Transfer to</p>
+                <input class="account__input account__amount" name="Amount">
+                <p>Amount</p>
+                <button class="account__grid-button account__transfer-button">
+                    <img src="../assets/arrow-right.svg" class="account__grid-button-image">
+                </button>
+            </div>
+
+             <div class="account__request-loan account__generic-grid">
+                <p>Request Loan</p><br>
+                <input class="account__input account__loan-amount" name="Loan amount">
+                <p>Amount</p>
+                <button class="account__grid-button account__loan-button">
+                    <img src="../assets/arrow-right.svg" class="account__grid-button-image">
+                </button>
+            </div>
+            
+            <div class="account__close-account account__generic-grid">
+                <p>Close account</p><br>
+                <input class="account__input account__user" name="User" type="text">
+                <p>Confirm user</p>
+                <input class="account__input account__pin" name="PIN" type="password">
+                <p>Confirm PIN</p>
+                <button class="account__grid-button account__close-button">
+                    <img src="../assets/arrow-right.svg" class="account__grid-button-image">
+                </button>
+            </div> 
+        </div>
+        <footer class="account__footer">
+            <button class="account__sort-button">
+                <img src="../assets/arrow-right.svg" class="account__sort">
+                <p class="account__sort-text">SORT</p>
+            </button>
+            <p class="account__in">IN <span class="account__in-amount">₹2000</span></p>
+            <p class="account__out">OUT <span class="account__out-amount">-₹378</span></p>
+            <p class="account__interest">INTEREST <span class="account__interest-amount">₹2000</span></p>
+            <p class="account__logout-text">You will be logged out in <span class="account__logout-time">00:00</span></p>
+        </footer>
+    </section>
+
+    <script src="login.js"></script>
+</body>
+</html>

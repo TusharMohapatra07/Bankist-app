@@ -1,0 +1,109 @@
+.login-page{
+    height: 100vh;
+    width: 100%;
+    background-color: var(--primary-color);
+}
+
+.login-page__container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    justify-content: center;
+    left: 50%;
+    max-width: 600px;
+    position: relative;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+}
+
+.login-page__icon{
+    aspect-ratio: 1/1;
+    margin-top: 2rem;
+    width: 6.5rem;
+}
+
+.login-page__icon :where(a img){
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+}
+
+.login-page__text{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 1rem;
+    text-align: center;
+}
+
+.login-page__form{
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 80%;
+}
+
+.login-page__username{
+    border-radius: 3rem;
+    border-style: none;
+    font-family: inherit;
+    height: 25%;
+    margin: 1rem;
+    outline: black 0.15rem solid;
+    padding: 2rem;
+}
+
+.login-page__password{
+    border-radius: 3rem;
+    border-style: none;
+    font-family: inherit;
+    height: 25%;
+    margin: 1rem;
+    outline: black 0.15rem solid;
+    padding: 2rem;
+}
+
+.login-page__button{
+    align-items: center;
+    background-color: white;
+    background-image: linear-gradient(45deg, rgb(167, 255, 95), rgb(92, 218, 92) );
+    border-radius: 3rem;
+    border-style: none;
+    cursor: pointer;
+    display: flex;
+    font-family: inherit;
+    font-size: 1.4rem;
+    font-weight: 600;
+    height: 20%;
+    justify-content: center;
+    outline: black 0.15rem solid;
+    width: 25%;
+    align-self: flex-end;
+    transform: translate(-12%, -140%);
+}
+
+.login-page__button :where(img){
+    height: 2rem;
+    padding: 0 0.5rem;
+}
+
+.login-page__button:hover {
+    justify-content: space-evenly;
+}
+
+.login-page__back-text{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.login-page__link{
+    color: black;
+    padding: 0.5rem;
+}
+
+.login-page__link:where(:hover,:focus){
+    opacity: 0.75;
+}
