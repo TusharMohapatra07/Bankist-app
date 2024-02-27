@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bankist</title>
+  <link rel="icon" href="assets/icon.png">
+  <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="nav">
+    <img src="assets/logo.png" alt="logo" class="nav__logo">
+    <ul class="nav__ul">
+      <li class="nav__li"><a class="nav__link" href="#section--2">Features</a></li>
+      <li class="nav__li"><a class="nav__link" href="#section--3">Operations</a></li>
+      <li class="nav__li"><a class="nav__link" href="#section--4">Testimonials</a></li>
+      <li class="nav__button nav__li"><a class="nav__link--btn nav__link" href="Login Page/login.html" target="_blank">Login</a></li>
+    </ul>
+  </nav>
+
+  <div class="hero" id="section--1">
+    <div class="hero__left-div">
+      <h1 class="hero__title">
+        When <span class="hero__title--green">banking</span> meets <span class="hero__title--green">minimalism</span>
+      </h1>
+      <h3 class="hero__slogan">A simple banking experience for a more simpler life.</h3>
+      <a class="hero__learn-more">Learn more <img src="assets/arrow-right.svg" alt="arrow" class="hero__arrow"></a>
+    </div>
+    <div class="hero__right-div">
+      <img src="assets/hero.png" alt="hero image" class="hero__image">
+    </div>
+  </div>
+
+  <div class="features section" id="section--2">
+    <p class="features__title">FEATURES</p>
+    <h2 class="features__text">Everything you need in a modern bank and more.</h2>
+    <div class="features__container">
+      <img src="assets/digital-lazy.jpg" data-src="assets/digital.jpg" class="features__image features__image-lazy features__image--digital" alt="digital image">
+      <div class="features__card features__card--digital">
+        <img src="assets/monitor-icon.svg" alt="money icon" class="features__card-icon features__card-icon--monitor">
+        <p class="features__card-title">100% digital bank</p>
+        <p class="features__card-text">Embrace the future of banking with our 100% digital platform. Effortlessly manage finances, make transactions, and enjoy seamless banking anytime, anywhere.</p>
+      </div>
+      <img src="assets/grow-lazy.jpg" data-src="assets/grow.jpg" class="features__image features__image-lazy features__image--grow" alt="grow image">
+      <div class="features__card features__card--grow">
+        <img src="assets/up-icon.svg" alt="grow icon" class="features__card-icon">
+        <p class="features__card-title">Watch your money grow</p>
+        <p class="features__card-text">Watch your money flourish with our innovative financial solutions. Grow your wealth effortlessly and achieve your financial goals with confidence.</p>
+      </div>
+      <img src="assets/card-lazy.jpg"  data-src="assets/card.jpg" class="features__image features__image-lazy features__image--card" alt="card image">
+      <div class="features__card features__card--card">
+        <img src="assets/card-icon.svg" alt="card icon" class="features__card-icon">
+        <p class="features__card-title">Free debit card included</p>
+        <p class="features__card-text">Unlock financial freedom with us! Enjoy a complimentary debit card, offering convenience and flexibility for seamless transactions at your fingertips.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="operations features section" id="section--3">
+    <p class="operations__title features__title">OPERATIONS</p>
+    <h2 class="operations__text features__text">Everything as simple as possible, but no simpler.</h2>
+    <div class="operations__container">
+      <div class="operations__buttons">
+        <button class="operations__btn operations__transfer-btn lift" data-tab="1">01 Instant Transfers</button>
+        <button class="operations__btn operations__loan-btn" data-tab="2">02 Instant Loans</button>
+        <button class="operations__btn operations__close-btn" data-tab="3">03 Instant Closing</button>
+      </div>
+      <section class="operations__transfer operations__generic-grid">
+        <img src="assets/transfer-icon.svg" alt="icon">
+        <p>Transfer money to anyone, instantly! No fees, no BS</p>
+        <p>Experience the freedom of seamless money transfers on our banking website. Instant transactions, zero fees, no nonsense. Send money to anyone, anywhere, effortlessly – because banking should be simple and straightforward.</p>
+      </section>
+      <section class="operations__loans operations__generic-grid hide">
+        <img src="assets/money-icon.svg" alt="icon">
+        <p>Buy a home or make your dreams come true, with instant loans.</p>
+        <p>Unlock your dreams effortlessly with our banking website. Whether it's purchasing a new home or realizing your aspirations, our instant loan solutions make it possible. Experience financial empowerment at your fingertips.</p>
+      </section>
+      <section class="operations__close operations__generic-grid hide">
+        <img src="assets/user-icon.svg" alt="icon">
+        <p>No longer need your account? No problem! Close it instantly.</p>
+        <p>Take control of your financial choices. With our banking website, closing your account is a breeze. No fuss, no delays – just instant closure. Your convenience, our priority.</p>
+      </section>
+    </div>
+  </div>
+
+  <div class="not-sure operations features section" id="section--4">
+    <p class="not-sure__title">NOT SURE YET?</p>
+    <h2 class="not-sure__text">Millions of Bankists are already making their lifes simpler.</h2>
+
+    <div class="not-sure__container">
+      <img src="assets/arrow-right.svg" alt="arrow" class="not-sure__arrow-left not-sure__arrow">
+      <div class="not-sure__review">
+        <img src="assets/quotes-icon.svg" alt="quote" class="not-sure__dbl-qt">
+        <div class="not-sure__review-container   hide-container">
+          <p>Best financial decision ever!</p>
+          <p>Bankist's website stands out with its user-friendly design, robust security, and exceptional customer service. Managing my finances has never been easier. It's undeniably the best financial decision I've made, providing convenience and peace of mind.</p>
+          <div class="not-sure__icon">
+            <img src="assets/user-1.jpg" alt="user-icon">
+            <div>
+              <p>Rohan Patel</p>
+              <p>San Francisco, USA</p>
+            </div>
+          </div>
+        </div>
+        <div class="not-sure__review-container">
+          <p>The last step to becoming a complete minimalist</p>
+          <p>Discovering the Bankist app felt like the ultimate step towards financial minimalism. Its sleek design and intuitive features seamlessly blend with my lifestyle, providing a clutter-free banking experience. The app's security measures offer peace of mind, making it the perfect companion for anyone striving for simplicity in their financial management.</p>
+          <div class="not-sure__icon">
+            <img src="assets/user-2.jpg" alt="user-icon">
+            <div>
+              <p>Olivia Reynolds</p>
+              <p>London, UK</p>
+            </div>
+          </div>
+        </div>
+        <div class="not-sure__review-container  hide-container">
+          <p>Finally free from old-school banks</p>
+          <p>Embracing the digital era, I've found liberation from the constraints of traditional banking with Bankist. This app is a game-changer, seamlessly replacing the outdated practices of old-school banks. The intuitive interface, coupled with modern features, has transformed my financial experience.</p>
+          <div class="not-sure__icon">
+            <img src="assets/user-3.jpg" alt="user-icon">
+            <div> 
+              <p>Xavier Mitchell</p>
+              <p>Lisbon, Portugal</p>
+            </div>
+          </div>
+        </div>
+        <div class="not-sure__markers">
+          <div class="marker marker-1" data-slide="0"></div>
+          <div class="marker marker-2" data-slide="1"></div>
+          <div class="marker marker-3" data-slide="2"></div>
+        </div>
+      </div>
+      <img src="assets/arrow-right.svg" alt="arrow" class="not-sure__arrow-right not-sure__arrow">
+    </div>
+  </div>
+
+  <div class="closure section" id="section--5">
+    <p class="closure__title">The best day to join Bankist was one year ago. The second best is today!</p>
+    <a class="closure__button">Open your free account today!</a>
+  </div>
+
+  <footer id="section--6 section">
+    <ul class="footer__ul">
+      <li>About</li>
+      <li>Pricing</li>
+      <li>Terms of Use</li>
+      <li>Privacy Policy</li>
+      <li>Careers</li>
+      <li>Blog</li>
+      <li>Contact Us</li>
+    </ul>
+    <img src="assets/icon.png" alt="logo" class="footer__icon">
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
