@@ -21,7 +21,10 @@ This part of the application is responsive. The main goal behind this part is to
 
 Please feel free to use the applications with 4 default users. Please use the full name (case-sensitive) and password to login.
 
-1. UserName: John Doe | Password: 1111
-2. UserName: Alice Smith | Password: 2222
-3. UserName: Bob Johnson | Password: 3333
-4. UserName: Emily Davis | Password: 4444
+| UserName    | Password |
+|-------------|----------|
+| John Doe    | 1111     |
+| Alice Smith | 2222     |
+| Bob Johnson | 3333     |
+| Emily Davis | 4444     |
+
