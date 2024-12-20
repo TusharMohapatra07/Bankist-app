@@ -1,0 +1,15 @@
+{
+  "name": "bankist-app",
+  "version": "1.0.0",
+  "description": "BANKIST: When banking meets minimalism",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
